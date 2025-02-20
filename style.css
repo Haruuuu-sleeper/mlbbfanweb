@@ -1,0 +1,527 @@
+body{
+    background-color: #1F3B4D;
+}
+.container{
+    z-index: 20;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 130%;
+    position: sticky;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px 50px;
+    padding: 15px;
+    top: 0px;
+    color: white;
+    z-index: 999;
+}
+.menuleft a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+}
+menu a:hover{
+    background-color: black;
+}
+.menuleft a i {
+    margin-right: 5px;
+}
+.menuright i {
+    padding: 15px;
+    color: white;
+}
+.menuright i:hover{
+    background-color: silver;
+}
+.menuright input{
+    width: 450px;
+    padding: 15px;
+    border-radius: 25px 25px;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 5px;
+}
+.background{
+    background-color: #1F3B4D;
+
+}
+.bgtext{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 50px;
+}
+.image img{
+    width: 800px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 350px;
+}
+.image .Welcome{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 110%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 10px;
+}
+.imagels img{
+    width: 850px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 325px;
+}
+.bgtext2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 15px;
+}
+.subhead{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 160%;
+    padding-left: 50px;
+    margin-top: 15px;
+}
+.subhead2{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 160%;
+    padding-left: 50px;
+    margin-top: 15px;
+    text-align: center;
+}
+.subhead2 input{
+    width: 50%;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 50px 50px;
+    margin-top: 20px;
+}
+.subhead i {
+    margin-left: 15px;
+}
+.gamefeatures{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 110%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 15px;
+    
+}
+.google-play-badge,
+.app-store-badge {
+    width: 150px;   
+    height: auto;   
+    margin-top: 15px;
+}
+.About {
+    position: relative;
+    height: 95vh;
+    background-image: url(GuinLegendSkin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 50px  50px;
+    ;
+}
+.About .head{
+    position: relative;
+    bottom: -5%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.84);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 300%;
+    margin-bottom: 30px;
+    width: 550px;
+    margin-left: 475px;
+    border-radius: 50px 50px;
+}
+.About::before{
+    content: "";
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-size: cover;
+}
+.aboutustext{
+    position: relative;
+    top: 45%;
+    left: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 110%;
+    width: 1100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.784);
+    letter-spacing: 2px;
+}
+.role{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 15px;
+}
+.container2{
+    display: flex;
+    gap: 20px;
+    background-color: black;
+    height: 900px;
+    width: 470px;
+    margin-top: 15px;
+    border-radius: 50px 50px;
+}
+.container2 img {
+    height: 275px;
+    width: 450px;
+    margin-left: 10px;
+    margin-top: 9px;
+    border-radius: 50px 50px;
+}
+.container2 .heroesdetail {
+    color: white;
+    margin-left: 25px;
+}
+.container2 b {
+    line-height: 2.5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+.progress b {
+    color:white;
+    margin-left: 175px;
+}
+.durability{
+    margin-left: 23px;
+    width: 90%;
+    height: 21px;
+    background-color: rgba(255, 255, 255, 0.388);
+    border-radius: 50px 50px;
+    overflow: hidden;
+    padding: 4px;
+}
+.durabilityinline1{
+   width: 40%;
+   height: 20px;
+   background-color: aqua;
+   border-radius: 50px 50px;
+
+}
+.offense{
+    margin-left: 23px;
+    width: 90%;
+    height: 21px;
+    background-color: rgba(255, 255, 255, 0.388);
+    border-radius: 50px 50px;
+    overflow: hidden;
+    padding: 4px;
+}
+.offenseinline1{
+    width: 50%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50px 50px;
+}
+.cceffects{
+    margin-left: 23px;
+    width: 90%;
+    height: 21px;
+    background-color: rgba(255, 255, 255, 0.388);
+    border-radius: 50px 50px;
+    overflow: hidden;
+    padding: 4px;
+}
+.cceffectsinline1{
+    width: 65%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50px 50px;
+}
+.difficulty{
+    margin-left: 23px;
+    width: 90%;
+    height: 21px;
+    background-color: rgba(255, 255, 255, 0.388);
+    border-radius: 50px 50px;
+    overflow: hidden;
+    padding: 4px;
+}
+.difficultyinline1{
+    width: 40%;
+   height: 20px;
+   background-color: aqua;
+   border-radius: 50px 50px;
+}
+.durabilityinline2{
+    width: 85%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50px 50px;
+ }
+ .offenseinline2{
+     width: 15%;
+     height: 20px;
+     background-color: aqua;
+     border-radius: 50px 50px;
+ }
+ .cceffectsinline2{
+     width: 100%;
+     height: 20px;
+     background-color: aqua;
+     border-radius: 50px 50px;
+ }
+ .difficultyinline2{
+     width: 15%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50px 50px;
+ }
+ .durabilityinline3{
+    width: 65%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50px 50px;
+ }
+ .offenseinline3{
+     width: 75%;
+     height: 20px;
+     background-color: aqua;
+     border-radius: 50px 50px;
+ }
+ .cceffectsinline3{
+     width: 15%;
+     height: 20px;
+     background-color: aqua;
+     border-radius: 50px 50px;
+ }
+ .difficultyinline3{
+     width: 100%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50px 50px;
+ }
+ .durabilityinline4{
+    width: 30%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50px 50px;
+ }
+ .offenseinline4{
+     width: 100%;
+     height: 20px;
+     background-color: aqua;
+     border-radius: 50px 50px;
+ }
+ .cceffectsinline4{
+     width: 80%;
+     height: 20px;
+     background-color: aqua;
+     border-radius: 50px 50px;
+ }
+ .difficultyinline4{
+     width: 25%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50px 50px;
+ }
+ .durabilityinline5{
+    width: 15%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50px 50px;
+ }
+ .offenseinline5{
+     width: 90%;
+     height: 20px;
+     background-color: aqua;
+     border-radius: 50px 50px;
+ }
+ .cceffectsinline5{
+     width: 15%;
+     height: 20px;
+     background-color: aqua;
+     border-radius: 50px 50px;
+ }
+ .difficultyinline5{
+     width: 15%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50px 50px;
+ }
+ .durabilityinline6{
+    width: 30%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50px 50px;
+ }
+ .offenseinline6{
+     width: 25%;
+     height: 20px;
+     background-color: aqua;
+     border-radius: 50px 50px;
+ }
+ .cceffectsinline6{
+     width: 60%;
+     height: 20px;
+     background-color: aqua;
+     border-radius: 50px 50px;
+ }
+ .difficultyinline6{
+     width: 60%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50px 50px;
+ }
+.box2{
+    background-color: black;
+    width: 1040px;
+    flex-shrink: 0;
+    color: white;
+    border-radius: 50px 50px;
+    text-align: center;
+    line-height: 2;
+}
+.intro{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    color: white;
+    text-align: center;
+}
+.textbox{
+    color: white;
+    text-align:left ;
+    margin-left: 20px;
+}
+.skin-box {
+    background: #1A1F36;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.skin-header {
+    background: #FF4081;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.skin-image {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.skin-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #FF5555;
+    font-size: 14px;
+}
+
+.new-price {
+    color: #00FF99;
+    margin-left: 5px;
+}
+.shop-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+.item {
+    background: #444;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    transition: 0.3s;
+}
+.item:hover {
+    transform: scale(1.05);
+}
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+.discount-badge {
+    background: red;
+    color: white;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.checkout {
+    margin-top: 20px;
+    background: #333;
+    padding: 15px;
+    border-radius: 10px;
+}
+.total-price {
+    color: #ffcc00;
+    font-weight: bold;
+}
+.pay-now {
+    background: grey;
+    color: white;
+}
+.contact-container {
+    background: #1A1F36;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #222;
+    color: white;
+}
+button.submit {
+    background: #FF4081;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-info p {
+    margin: 15px 0;
+    font-size: 14px;
+}
